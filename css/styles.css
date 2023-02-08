@@ -1,0 +1,113 @@
+
+body{
+    margin: 0;
+    background-color:rgb(253, 220, 207) ;
+    text-align: center;
+}
+.top-container{
+    margin-top: 100px;
+    opacity:0.8 ;
+}
+
+.top1{
+    font-family: "ubuntu mono";
+    position: relative;
+    bottom: 20px;
+}
+.top{
+    font-family: monoton;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+img{
+    max-width: 100%;
+}
+.profile-pic{
+    max-width: 15%;
+}
+.design{
+    transform: rotate(90deg);
+    max-width: 20%;
+    float: left;
+    margin-right: 50px;
+}
+.badminton{
+    max-width: 20%;
+    float: right;
+    margin-right: 100px;
+    
+}
+hr{
+    margin-top: 100px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0ba272;
+    border-width: 13px;
+    width: 6%;
+    opacity: 0.8;;
+}
+.skills{
+    margin-top: 100px;
+}
+.contact-me{
+    margin-top: 100px;
+}
+p{
+    font-family: ubuntu mono ;
+    font-size: 1.1em;
+}
+h2{
+    font-family: arial;
+    font-size: 2em;
+    color:indianred;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+}
+.bottom-container{
+    margin-top: 150px;
+    background-color:cadetblue ;
+}
+.logo{
+    max-width:3%;
+    margin-right: 10px;
+}
+.skill-row{
+    margin:50px auto;
+    width: 45%;
+    text-align: left;
+    margin-bottom: 150px; 
+}
+.btn {
+  position:relative;
+  top:25px;
+  background: cadetblue;
+  background-image: -webkit-linear-gradient(top, cadetblue);
+  background-image: -moz-linear-gradient(top, cadetblue);
+  background-image: -ms-linear-gradient(top, cadetblue);
+  background-image: -o-linear-gradient(top, cadetblue);
+  background-image: linear-gradient(to bottom, cadetblue);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd);
+  background-image: -moz-linear-gradient(top, #3cb0fd);
+  background-image: -ms-linear-gradient(top, #3cb0fd);
+  background-image: -o-linear-gradient(top, #3cb0fd);
+  background-image: linear-gradient(to bottom, #3cb0fd);
+  text-decoration: none;
+}
+a:link { text-decoration: none; color:rgb(253, 220, 207);}
+a:visited { text-decoration: none;color:rgb(253, 220, 207); }
+a:hover { text-decoration: none;color:rgb(253, 220, 207); }
+a:active { text-decoration: none;color:rgb(253, 220, 207); }
