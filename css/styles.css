@@ -8,7 +8,9 @@ body{
     margin-top: 100px;
     opacity:0.8 ;
 }
-
+.middle-container{
+    
+}
 .top1{
     font-family: "ubuntu mono";
     position: relative;
@@ -50,6 +52,7 @@ hr{
     margin-top: 100px;
 }
 .contact-me{
+    position: relative;
     margin-top: 100px;
 }
 p{
@@ -81,7 +84,7 @@ h3{
 }
 .btn {
   position:absolute;
-  left:625px;
+  left: 540px;
   border-top: 20px;
   background-color: cadetblue;
   background-image: -webkit-linear-gradient(top, cadetblue);
@@ -110,5 +113,5 @@ a:hover { text-decoration: none;color:rgb(253, 220, 207); }
 a:active { text-decoration: none;color:rgb(253, 220, 207); }
 
 .logo:hover{
-    max-width: 3.4%;
+    transform: scale(1.3);
 }
